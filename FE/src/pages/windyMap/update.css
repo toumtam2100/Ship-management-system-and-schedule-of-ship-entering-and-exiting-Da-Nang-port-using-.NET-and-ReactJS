@@ -1,0 +1,51 @@
+.updatePositionButton {
+  font-size: 8px;
+  background-color: #83b7c9;
+  padding: 5px 24px;
+  border-radius: 2px;
+  margin-right: 5px;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+.updatePositionButton:hover {
+  background-color: #468faf;
+}
+.modalStyle {
+  width: 320px !important;
+  height: 226px !important;
+  right: -101px !important;
+  top: 187px !important;
+  padding: 15px 32 px !important;
+}
+.modalStyle .ant-modal-body {
+  padding: 24px 24px 0px 24px !important;
+}
+.logoAtUpdate img {
+  position: absolute;
+  width: 33% !important;
+  top: -23%;
+  right: 33%;
+}
+.customUpdateLocationButton {
+  /* Add your custom styles here */
+  background-color: #83b7c9; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.customUpdateLocationButton:hover {
+  background-color: #468faf; /* Darker Green */
+}
+.toadotext {
+  font-size: 15px;
+}

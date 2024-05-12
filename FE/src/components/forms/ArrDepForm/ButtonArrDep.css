@@ -1,0 +1,20 @@
+/* styles.css */
+
+.colorButton {
+  display: flex; /* Use flex container */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+  width: 170px;
+  height: 40px;
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+.colorButton:hover {
+  background-color: darkblue; /* Adjust the color when hovered */
+}

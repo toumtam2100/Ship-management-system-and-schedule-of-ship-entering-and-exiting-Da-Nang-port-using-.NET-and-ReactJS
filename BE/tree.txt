@@ -1,0 +1,282 @@
+Folder PATH listing for volume Data
+Volume serial number is A4EF-28F1
+D:.
+¦   .gitignore
+¦   .gitlab-ci.yml
+¦   .gitpod.yml
+¦   CONTRIBUTING.md
+¦   delete-local-branch.cmd
+¦   LICENSE
+¦   Program.cs
+¦   README.md
+¦   tree.txt
+¦   
++---.github
+¦   +---workflows
++---code
+¦   +---DPM.API
+¦   ¦   ¦   .dockerignore
+¦   ¦   ¦   appsettings.Development.json
+¦   ¦   ¦   appsettings.json
+¦   ¦   ¦   docker-compose.yml
+¦   ¦   ¦   Dockerfile
+¦   ¦   ¦   DPM.API.csproj
+¦   ¦   ¦   DPM.API.csproj.user
+¦   ¦   ¦   DPM.BackEnd.sln
+¦   ¦   ¦   Program.cs
+¦   ¦   ¦   Startup.cs
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   ¦   +---Debug
+¦   ¦   ¦       +---net6.0
+¦   ¦   ¦           ¦   appsettings.Development.json
+¦   ¦   ¦           ¦   appsettings.json
+¦   ¦   ¦           ¦   Azure.Core.dll
+¦   ¦   ¦           ¦   Azure.Identity.dll
+¦   ¦   ¦           ¦   Azure.Security.KeyVault.Certificates.dll
+¦   ¦   ¦           ¦   Azure.Security.KeyVault.Secrets.dll
+¦   ¦   ¦           ¦   DPM.API.deps.json
+¦   ¦   ¦           ¦   DPM.API.dll
+¦   ¦   ¦           ¦   DPM.API.exe
+¦   ¦   ¦           ¦   DPM.API.pdb
+¦   ¦   ¦           ¦   DPM.API.runtimeconfig.json
+¦   ¦   ¦           ¦   Microsoft.AspNetCore.Authentication.JwtBearer.dll
+¦   ¦   ¦           ¦   Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+¦   ¦   ¦           ¦   Microsoft.Bcl.AsyncInterfaces.dll
+¦   ¦   ¦           ¦   Microsoft.Identity.Client.dll
+¦   ¦   ¦           ¦   Microsoft.Identity.Client.Extensions.Msal.dll
+¦   ¦   ¦           ¦   Microsoft.Identity.Web.dll
+¦   ¦   ¦           ¦   Microsoft.IdentityModel.JsonWebTokens.dll
+¦   ¦   ¦           ¦   Microsoft.IdentityModel.Logging.dll
+¦   ¦   ¦           ¦   Microsoft.IdentityModel.Protocols.dll
+¦   ¦   ¦           ¦   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+¦   ¦   ¦           ¦   Microsoft.IdentityModel.Tokens.dll
+¦   ¦   ¦           ¦   Microsoft.OpenApi.dll
+¦   ¦   ¦           ¦   Swashbuckle.AspNetCore.Swagger.dll
+¦   ¦   ¦           ¦   Swashbuckle.AspNetCore.SwaggerGen.dll
+¦   ¦   ¦           ¦   Swashbuckle.AspNetCore.SwaggerUI.dll
+¦   ¦   ¦           ¦   System.IdentityModel.Tokens.Jwt.dll
+¦   ¦   ¦           ¦   System.Security.Cryptography.ProtectedData.dll
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---runtimes
+¦   ¦   ¦               +---win
+¦   ¦   ¦                   +---lib
+¦   ¦   ¦                       +---netstandard2.0
+¦   ¦   ¦                               System.Security.Cryptography.ProtectedData.dll
+¦   ¦   ¦                               
+¦   ¦   +---Controllers
+¦   ¦   +---obj
+¦   ¦   ¦   ¦   Capstone.Backend.csproj.nuget.dgspec.json
+¦   ¦   ¦   ¦   Capstone.Backend.csproj.nuget.g.props
+¦   ¦   ¦   ¦   Capstone.Backend.csproj.nuget.g.targets
+¦   ¦   ¦   ¦   DPM.API.csproj.nuget.dgspec.json
+¦   ¦   ¦   ¦   DPM.API.csproj.nuget.g.props
+¦   ¦   ¦   ¦   DPM.API.csproj.nuget.g.targets
+¦   ¦   ¦   ¦   project.assets.json
+¦   ¦   ¦   ¦   project.nuget.cache
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---Container
+¦   ¦   ¦   ¦       ContainerDevelopmentMode.cache
+¦   ¦   ¦   ¦       ContainerId.cache
+¦   ¦   ¦   ¦       ContainerName.cache
+¦   ¦   ¦   ¦       ContainerRunContext.cache
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---Debug
+¦   ¦   ¦       +---net6.0
+¦   ¦   ¦           ¦   .NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+¦   ¦   ¦           ¦   apphost.exe
+¦   ¦   ¦           ¦   Capstone.Backend.AssemblyInfo.cs
+¦   ¦   ¦           ¦   Capstone.Backend.AssemblyInfoInputs.cache
+¦   ¦   ¦           ¦   Capstone.Backend.assets.cache
+¦   ¦   ¦           ¦   Capstone.Backend.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦   ¦           ¦   Capstone.Backend.GlobalUsings.g.cs
+¦   ¦   ¦           ¦   DPM.API.AssemblyInfo.cs
+¦   ¦   ¦           ¦   DPM.API.AssemblyInfoInputs.cache
+¦   ¦   ¦           ¦   DPM.API.assets.cache
+¦   ¦   ¦           ¦   DPM.API.csproj.AssemblyReference.cache
+¦   ¦   ¦           ¦   DPM.API.csproj.CopyComplete
+¦   ¦   ¦           ¦   DPM.API.csproj.CoreCompileInputs.cache
+¦   ¦   ¦           ¦   DPM.API.csproj.FileListAbsolute.txt
+¦   ¦   ¦           ¦   DPM.API.dll
+¦   ¦   ¦           ¦   DPM.API.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦   ¦           ¦   DPM.API.genruntimeconfig.cache
+¦   ¦   ¦           ¦   DPM.API.GlobalUsings.g.cs
+¦   ¦   ¦           ¦   DPM.API.MvcApplicationPartsAssemblyInfo.cache
+¦   ¦   ¦           ¦   DPM.API.MvcApplicationPartsAssemblyInfo.cs
+¦   ¦   ¦           ¦   DPM.API.pdb
+¦   ¦   ¦           ¦   staticwebassets.build.json
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---ref
+¦   ¦   ¦           ¦       DPM.API.dll
+¦   ¦   ¦           ¦       
+¦   ¦   ¦           +---refint
+¦   ¦   ¦           ¦       DPM.API.dll
+¦   ¦   ¦           ¦       
+¦   ¦   ¦           +---staticwebassets
+¦   ¦   ¦                   msbuild.build.DPM.API.props
+¦   ¦   ¦                   msbuild.buildMultiTargeting.DPM.API.props
+¦   ¦   ¦                   msbuild.buildTransitive.DPM.API.props
+¦   ¦   ¦                   
+¦   ¦   +---Properties
+¦   ¦           launchSettings.json
+¦   ¦           
+¦   +---DPM.Core
+¦   ¦   ¦   DPM.Core.csproj
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   ¦   +---Debug
+¦   ¦   ¦       +---net6.0
+¦   ¦   ¦               DPM.Core.deps.json
+¦   ¦   ¦               DPM.Core.dll
+¦   ¦   ¦               DPM.Core.pdb
+¦   ¦   ¦               
+¦   ¦   +---Constants
+¦   ¦   +---Data
+¦   ¦   +---Domain
+¦   ¦   +---Entities
+¦   ¦   +---Helpers
+¦   ¦   +---obj
+¦   ¦   ¦   ¦   DPM.Core.csproj.nuget.dgspec.json
+¦   ¦   ¦   ¦   DPM.Core.csproj.nuget.g.props
+¦   ¦   ¦   ¦   DPM.Core.csproj.nuget.g.targets
+¦   ¦   ¦   ¦   project.assets.json
+¦   ¦   ¦   ¦   project.nuget.cache
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---Debug
+¦   ¦   ¦       +---net6.0
+¦   ¦   ¦           ¦   .NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+¦   ¦   ¦           ¦   DPM.Core.AssemblyInfo.cs
+¦   ¦   ¦           ¦   DPM.Core.AssemblyInfoInputs.cache
+¦   ¦   ¦           ¦   DPM.Core.assets.cache
+¦   ¦   ¦           ¦   DPM.Core.csproj.CoreCompileInputs.cache
+¦   ¦   ¦           ¦   DPM.Core.csproj.FileListAbsolute.txt
+¦   ¦   ¦           ¦   DPM.Core.dll
+¦   ¦   ¦           ¦   DPM.Core.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦   ¦           ¦   DPM.Core.GlobalUsings.g.cs
+¦   ¦   ¦           ¦   DPM.Core.pdb
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---ref
+¦   ¦   ¦           ¦       DPM.Core.dll
+¦   ¦   ¦           ¦       
+¦   ¦   ¦           +---refint
+¦   ¦   ¦                   DPM.Core.dll
+¦   ¦   ¦                   
+¦   ¦   +---Services
+¦   ¦   +---Settings
+¦   +---DPM.Domain
+¦   ¦   ¦   DPM.Domain.csproj
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   ¦   +---Debug
+¦   ¦   ¦       +---net6.0
+¦   ¦   ¦               DPM.Domain.deps.json
+¦   ¦   ¦               DPM.Domain.dll
+¦   ¦   ¦               DPM.Domain.pdb
+¦   ¦   ¦               
+¦   ¦   +---Common
+¦   ¦   +---Entities
+¦   ¦   +---Enums
+¦   ¦   +---Events
+¦   ¦   +---Exceptions
+¦   ¦   +---obj
+¦   ¦       ¦   DPM.Domain.csproj.nuget.dgspec.json
+¦   ¦       ¦   DPM.Domain.csproj.nuget.g.props
+¦   ¦       ¦   DPM.Domain.csproj.nuget.g.targets
+¦   ¦       ¦   project.assets.json
+¦   ¦       ¦   project.nuget.cache
+¦   ¦       ¦   
+¦   ¦       +---Debug
+¦   ¦           +---net6.0
+¦   ¦               ¦   .NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+¦   ¦               ¦   DPM.Domain.AssemblyInfo.cs
+¦   ¦               ¦   DPM.Domain.AssemblyInfoInputs.cache
+¦   ¦               ¦   DPM.Domain.assets.cache
+¦   ¦               ¦   DPM.Domain.csproj.CoreCompileInputs.cache
+¦   ¦               ¦   DPM.Domain.csproj.FileListAbsolute.txt
+¦   ¦               ¦   DPM.Domain.dll
+¦   ¦               ¦   DPM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦               ¦   DPM.Domain.GlobalUsings.g.cs
+¦   ¦               ¦   DPM.Domain.pdb
+¦   ¦               ¦   
+¦   ¦               +---ref
+¦   ¦               ¦       DPM.Domain.dll
+¦   ¦               ¦       
+¦   ¦               +---refint
+¦   ¦                       DPM.Domain.dll
+¦   ¦                       
+¦   +---DPM.Infrastructure
+¦   ¦   ¦   DPM.Infrastructure.csproj
+¦   ¦   ¦   
+¦   ¦   +---AWS
+¦   ¦   +---bin
+¦   ¦   ¦   +---Debug
+¦   ¦   ¦       +---net6.0
+¦   ¦   ¦               DPM.Infrastructure.deps.json
+¦   ¦   ¦               DPM.Infrastructure.dll
+¦   ¦   ¦               DPM.Infrastructure.pdb
+¦   ¦   ¦               
+¦   ¦   +---Context
+¦   ¦   +---obj
+¦   ¦   ¦   ¦   DPM.Infrastructure.csproj.nuget.dgspec.json
+¦   ¦   ¦   ¦   DPM.Infrastructure.csproj.nuget.g.props
+¦   ¦   ¦   ¦   DPM.Infrastructure.csproj.nuget.g.targets
+¦   ¦   ¦   ¦   project.assets.json
+¦   ¦   ¦   ¦   project.nuget.cache
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---Debug
+¦   ¦   ¦       +---net6.0
+¦   ¦   ¦           ¦   .NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+¦   ¦   ¦           ¦   DPM.Infrastructure.AssemblyInfo.cs
+¦   ¦   ¦           ¦   DPM.Infrastructure.AssemblyInfoInputs.cache
+¦   ¦   ¦           ¦   DPM.Infrastructure.assets.cache
+¦   ¦   ¦           ¦   DPM.Infrastructure.csproj.CoreCompileInputs.cache
+¦   ¦   ¦           ¦   DPM.Infrastructure.csproj.FileListAbsolute.txt
+¦   ¦   ¦           ¦   DPM.Infrastructure.dll
+¦   ¦   ¦           ¦   DPM.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦   ¦           ¦   DPM.Infrastructure.GlobalUsings.g.cs
+¦   ¦   ¦           ¦   DPM.Infrastructure.pdb
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---ref
+¦   ¦   ¦           ¦       DPM.Infrastructure.dll
+¦   ¦   ¦           ¦       
+¦   ¦   ¦           +---refint
+¦   ¦   ¦                   DPM.Infrastructure.dll
+¦   ¦   ¦                   
+¦   ¦   +---Repositories
+¦   +---DPM.Share
+¦       ¦   DPM.Share.csproj
+¦       ¦   
+¦       +---bin
+¦       ¦   +---Debug
+¦       ¦       +---net6.0
+¦       ¦               DPM.Share.deps.json
+¦       ¦               DPM.Share.dll
+¦       ¦               DPM.Share.pdb
+¦       ¦               
+¦       +---obj
+¦           ¦   DPM.Share.csproj.nuget.dgspec.json
+¦           ¦   DPM.Share.csproj.nuget.g.props
+¦           ¦   DPM.Share.csproj.nuget.g.targets
+¦           ¦   project.assets.json
+¦           ¦   project.nuget.cache
+¦           ¦   
+¦           +---Debug
+¦               +---net6.0
+¦                   ¦   .NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+¦                   ¦   DPM.Share.AssemblyInfo.cs
+¦                   ¦   DPM.Share.AssemblyInfoInputs.cache
+¦                   ¦   DPM.Share.assets.cache
+¦                   ¦   DPM.Share.csproj.CoreCompileInputs.cache
+¦                   ¦   DPM.Share.csproj.FileListAbsolute.txt
+¦                   ¦   DPM.Share.dll
+¦                   ¦   DPM.Share.GeneratedMSBuildEditorConfig.editorconfig
+¦                   ¦   DPM.Share.GlobalUsings.g.cs
+¦                   ¦   DPM.Share.pdb
+¦                   ¦   
+¦                   +---ref
+¦                   ¦       DPM.Share.dll
+¦                   ¦       
+¦                   +---refint
+¦                           DPM.Share.dll
+¦                           
++---docs

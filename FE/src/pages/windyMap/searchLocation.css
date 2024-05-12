@@ -1,0 +1,177 @@
+.popupContainerSearch {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  width: 486px;
+  height: 617px;
+  /* overflow-y: auto; */
+  z-index: 1000;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  /* border-radius: 10px; */
+}
+
+.shipDataFilterSearch {
+  display: flex;
+  align-items: center;
+  gap: 1px; /* Add
+   gap between items in each row */
+  margin-bottom: 14px;
+  border: 2px solid #80808026;
+  /* padding: 5px; */
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+/* .shipDataFilterSearch:hover {
+  background-color: #2a6f97;
+  color: white;
+  padding: 3px;
+} */
+.shipImgSearch img {
+  width: 139px;
+  height: 94px;
+  margin-right: 20px;
+  border-radius: 10px 0 0 10px; /* Top-left, bottom-left, and bottom-right */
+}
+
+.otherInfo {
+  font-size: small;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1px; /* Add gap between lines of other information */
+}
+
+.ownerName,
+.shipNum,
+.ownerPhone {
+  /* Add styles for other information */
+  margin: 0; /* Reset default margin */
+}
+.customPagination .ant-pagination-item a {
+  /* color: white !important; */
+  border-radius: 50% !important;
+  /* background-color: #83b7c9 !important; */
+}
+.customPagination .ant-pagination-item {
+  /* border: none !important; */
+  border-radius: 50% !important;
+}
+.customPagination .ant-pagination-next .ant-pagination-item-link,
+.ant-pagination-prev .ant-pagination-item-link {
+  border-radius: 50%;
+}
+.customPagination .ant-pagination-item-active a,
+.ant-pagination-item:focus-visible a {
+  color: white !important;
+}
+.customPagination {
+  /* display: flex; */
+  /* justify-content: center; */
+  position: absolute;
+  bottom: 9px;
+  /* text-align: center; */
+  right: 185px;
+}
+.customPagination .ant-pagination-item-active {
+  background-color: #83b7c9 !important;
+  border-color: transparent !important;
+}
+.searchLocation_NameNum {
+  font-weight: bold;
+}
+.searchLocation_Description {
+  font-size: 10px;
+}
+.searchLocation_Position span {
+  font-size: 10px;
+  transition: all 0.1s ease-out;
+}
+.searchLocation_Position {
+  display: flex;
+  align-items: center !important;
+  gap: 5px;
+}
+.custom-svg-container {
+  display: flex;
+  align-items: center;
+}
+.searchLocation_Position span:hover {
+  color: #83b7c9;
+  font-weight: bold;
+}
+.changeTextColor {
+  color: #83b7c9 !important;
+}
+.customDPMButton {
+  position: absolute;
+  bottom: 6px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 11px;
+  padding: 10px;
+  cursor: pointer;
+  width: 135px;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.customDPMButton:hover {
+  background-color: #83b7c9;
+  font-weight: bold;
+  padding: 15px;
+  width: 150px;
+}
+.buttonText {
+  font-size: 12px;
+  color: white;
+}
+.customMapLogo {
+  width: 19%;
+}
+.closeIcon {
+  padding: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.closeIcon:hover {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+}
+.popupHeader {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.popupHeader h3 {
+  margin: 0 !important;
+}
+.locationAndEdit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.custom-svg {
+  width: 1.6em;
+  height: 1.6em;
+  margin-right: 0.3em;
+}
+.searchLocation_Position svg path {
+  transition: stroke 0.3s ease;
+}
+
+.searchLocation_Position:hover svg path {
+  stroke: #014f86;
+  /* font-weight: bold; */
+}
+.hidden {
+  display: none !important;
+}

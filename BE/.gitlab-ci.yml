@@ -1,0 +1,31 @@
+image: mcr.microsoft.com/dotnet/sdk:6.0
+
+variables:
+  OBJECTS_DIRECTORY: "obj"
+  NUGET_PACKAGES_DIRECTORY: "*/*.nuget"  # Adjust if necessary
+  SOURCE_CODE_PATH: code/
+  PROJECT_FILE_PATH: "*/*.sln"
+
+cache:
+  key: "$CI_JOB_STAGE-$CI_COMMIT_REF_SLUG"
+  paths:
+    - "$SOURCE_CODE_PATH$OBJECTS_DIRECTORY/project.assets.json"
+    - "$SOURCE_CODE_PATH$OBJECTS_DIRECTORY/*.csproj.nuget.*"
+    - "$NUGET_PACKAGES_DIRECTORY"
+  policy: pull-push
+
+before_script:
+  - >
+    cd $SOURCE_CODE_PATH &&
+    pwd &&
+    ls -la &&
+    echo "NUGET_PACKAGES_DIRECTORY: $NUGET_PACKAGES_DIRECTORY" &&
+    echo "PROJECT_FILE_PATH: $PROJECT_FILE_PATH" &&
+    find . -name '*.csproj' -exec dotnet restore {} \;
+
+
+build:
+  stage: build
+  script:
+    - echo "Building with $PROJECT_FILE_PATH"
+    - dotnet build $PROJECT_FILE_PATH --no-restore

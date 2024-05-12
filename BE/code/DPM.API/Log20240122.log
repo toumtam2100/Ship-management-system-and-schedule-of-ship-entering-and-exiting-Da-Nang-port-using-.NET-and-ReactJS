@@ -1,0 +1,54 @@
+2024-01-22 16:50:08.093 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-22 16:50:08.262 +07:00 [DBG] Hosting starting
+2024-01-22 16:50:08.386 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-22 16:50:08.386 +07:00 [INF] Now listening on: http://localhost:5001
+2024-01-22 16:50:08.387 +07:00 [INF] Now listening on: http://localhost:5002
+2024-01-22 16:50:08.387 +07:00 [DBG] Loaded hosting startup assembly DPM.API
+2024-01-22 16:50:08.387 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-22 16:50:08.387 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-22 16:50:08.387 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-22 16:50:08.388 +07:00 [INF] Hosting environment: Development
+2024-01-22 16:50:08.388 +07:00 [INF] Content root path: D:\FPT\MainCourse\Capstone\capstone\code\DPM.API\
+2024-01-22 16:50:08.388 +07:00 [DBG] Hosting started
+2024-01-22 16:50:35.950 +07:00 [DBG] Connection id "0HN0R5UAIB905" accepted.
+2024-01-22 16:50:35.975 +07:00 [DBG] Connection id "0HN0R5UAIB906" accepted.
+2024-01-22 16:50:35.985 +07:00 [DBG] Connection id "0HN0R5UAIB906" started.
+2024-01-22 16:50:35.986 +07:00 [DBG] Connection id "0HN0R5UAIB905" started.
+2024-01-22 16:50:36.057 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/index.html - -
+2024-01-22 16:50:36.094 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-22 16:50:36.356 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-22 16:50:36.469 +07:00 [DBG] Connection id "0HN0R5UAIB907" accepted.
+2024-01-22 16:50:36.470 +07:00 [DBG] Connection id "0HN0R5UAIB907" started.
+2024-01-22 16:50:36.474 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2024-01-22 16:50:36.475 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 16:50:36.486 +07:00 [DBG] Connection id "0HN0R5UAIB906" completed keep alive response.
+2024-01-22 16:50:36.492 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-22 16:50:36.493 +07:00 [DBG] Connection id "0HN0R5UAIB905" completed keep alive response.
+2024-01-22 16:50:36.498 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 15.1714ms
+2024-01-22 16:50:36.509 +07:00 [DBG] Connection id "0HN0R5UAIB907" completed keep alive response.
+2024-01-22 16:50:36.509 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.7334ms
+2024-01-22 16:50:36.510 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/index.html - - - 200 - text/html;charset=utf-8 457.7060ms
+2024-01-22 16:50:36.534 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2024-01-22 16:50:36.708 +07:00 [DBG] Connection id "0HN0R5UAIB907" completed keep alive response.
+2024-01-22 16:50:36.709 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 175.2877ms
+2024-01-22 16:50:38.202 +07:00 [DBG] Connection id "0HN0R5UAIB906" received FIN.
+2024-01-22 16:50:38.202 +07:00 [DBG] Connection id "0HN0R5UAIB905" received FIN.
+2024-01-22 16:50:38.202 +07:00 [DBG] Connection id "0HN0R5UAIB907" received FIN.
+2024-01-22 16:50:38.234 +07:00 [DBG] Connection id "0HN0R5UAIB905" disconnecting.
+2024-01-22 16:50:38.256 +07:00 [DBG] Connection id "0HN0R5UAIB905" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-22 16:50:38.256 +07:00 [DBG] Connection id "0HN0R5UAIB907" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-22 16:50:38.256 +07:00 [DBG] Connection id "0HN0R5UAIB906" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-22 16:50:38.257 +07:00 [DBG] Connection id "0HN0R5UAIB906" disconnecting.
+2024-01-22 16:50:38.257 +07:00 [DBG] Connection id "0HN0R5UAIB907" disconnecting.
+2024-01-22 16:50:38.258 +07:00 [DBG] Connection id "0HN0R5UAIB907" stopped.
+2024-01-22 16:50:38.259 +07:00 [DBG] Connection id "0HN0R5UAIB905" stopped.
+2024-01-22 16:50:38.259 +07:00 [DBG] Connection id "0HN0R5UAIB906" stopped.
+2024-01-22 16:50:38.693 +07:00 [DBG] Connection id "0HN0R5UAIB908" accepted.
+2024-01-22 16:50:38.693 +07:00 [DBG] Connection id "0HN0R5UAIB908" started.
+2024-01-22 16:50:38.694 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2024-01-22 16:50:38.703 +07:00 [DBG] Connection id "0HN0R5UAIB908" completed keep alive response.
+2024-01-22 16:50:38.704 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 9.8546ms
+2024-01-22 16:50:48.226 +07:00 [DBG] Connection id "0HN0R5UAIB908" received FIN.
+2024-01-22 16:50:48.226 +07:00 [DBG] Connection id "0HN0R5UAIB908" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-22 16:50:48.226 +07:00 [DBG] Connection id "0HN0R5UAIB908" disconnecting.
+2024-01-22 16:50:48.227 +07:00 [DBG] Connection id "0HN0R5UAIB908" stopped.

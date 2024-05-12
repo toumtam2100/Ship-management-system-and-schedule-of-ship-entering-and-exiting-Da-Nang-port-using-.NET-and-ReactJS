@@ -1,0 +1,56 @@
+/* styles.css */
+
+.dashboard {
+  display: flex;
+  font-family: 'Arial, sans-serif';
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 10px;
+}
+.mainContent h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  color: #808080;
+}
+
+.inputField {
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 100px;
+  align-self: flex-start;
+  /* color: #24B24B;
+  color: #DF1616; */
+  /* color:'#E2B93B' */
+}
+
+.table {
+  margin-top: 20px;
+}
+.shipInformation {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 132px;
+}
+.textShip {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px !important;
+}
+.ButtonPart {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.AllButton {
+  display: flex;
+  justify-content: space-between;
+}
